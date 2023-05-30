@@ -1,0 +1,30 @@
+.imagenDeLogo{
+    width: 20%;
+    height: 20%;
+}
+.menuSuperior{
+    background-color: #2c2c2c;
+    background-image: linear-gradient(to right, #2c2c2c, #00818a);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 13%;
+    top: 0;
+    right: 0;
+    position: fixed;
+    padding: 0%;
+    border-bottom: #00a58d solid 3px;
+}
+.propiedadesBody{
+    background: linear-gradient(135deg, #1a1a1a, #004649);
+}
+.letrasDelNombreMenu {
+    background-image: url('../images/TexturaLetraTitulo.gif');
+    background-clip: text;
+    -webkit-background-clip: text; /* Para navegadores WebKit (Safari, Chrome) */
+    color: transparent;
+    font-size: 45pt;
+    font-weight: bold;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    -webkit-text-stroke: 2px #00a58d; /* Borde blanco de 2 píxeles */
+    text-stroke: 2px #00a58d;
+}
